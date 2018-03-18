@@ -1,0 +1,16 @@
+.clientList{
+    flex-grow: 1;
+}
+@media screen and (max-width: 800px){
+    .clientList{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .caseList{
+        display: flex;
+        overflow: auto;
+    }
+    .case{
+        flex-shrink: 0;
+    }
+}

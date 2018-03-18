@@ -1,0 +1,41 @@
+.client-second{
+    /*In Case.css*/
+    padding: 12px;
+    font-size: 0.95em;
+}
+.dp{
+    align-self: center;
+    margin-right: 10px;
+}
+.dp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:3px solid #868686;
+}
+.client-second span:last-child{ 
+    margin-top: 7px;
+    display: flex;
+    color: rgb(107, 113, 131);
+}
+.client-second span:last-child div{
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 7px;
+    font-size: 0.85em;
+    color:#fff;
+    margin-right: 10px;
+}
+.client-second svg{
+    margin-right: 7px;
+    border-radius: 5px;
+    color: #868686;
+}
+
+.req-dp{
+    width:55px;
+    height:55px;
+}

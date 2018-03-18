@@ -1,0 +1,57 @@
+.request{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px;
+    margin-top:0;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+}
+.request .client{
+    margin: 0;
+    border-radius: 0;
+    background: 0;
+    border:0;
+    border-bottom: 1px solid #cdcedb;
+    box-shadow: none;
+}
+.request-options{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:5px;
+}
+.request-options div{
+    padding: 12px 20px;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    width:45%;
+    flex-grow: 1;
+    background: #39b376;
+    margin:5px;
+    color:#fff;
+}
+
+.request-options span{
+
+    margin-right:6px;
+}
+.decline{
+    background: #e63948 !important;
+}
+.request-options svg{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+
+@media screen and (max-width: 800px){
+    .request{
+        width:50%;
+    } 
+    .request .client{
+        width:100%;
+    }
+}

@@ -1,0 +1,31 @@
+.client{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top:0;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.client img{
+    margin-right:10px;
+    border-radius: 5px;
+}
+.client div{
+    flex-grow: 1;
+}
+.client svg{
+    color: red;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px){
+     .client{
+         width: 40%;
+         flex-grow: 1;
+     }
+     .client:nth-child(even){
+         margin-left: 0;
+     }
+}

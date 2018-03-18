@@ -1,0 +1,89 @@
+.title{
+    flex-shrink: 0;
+}
+.title,.body{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cdcedb;
+}
+.title * {
+    outline:none !important;
+}
+.viewBill .title h3{
+    font-size: 1.5em;
+}
+.viewBill .title{
+    align-items: center;
+}
+.title{
+    display: flex;
+    padding: 0 20px 10px 0;
+}
+.title-left{
+    flex-grow: 1;
+}
+.title p{
+    color:#9c9eac;
+    margin-top:5px;
+}
+.title-pic img{
+    border-radius: 5px;
+    width:80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.title-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.title button{
+    flex-shrink: 0;
+    text-align: left;
+    padding-right:15px; 
+    border: 2px solid #9c9eac;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom:5px;
+    min-width: 100px;
+}
+button span{
+    color: #9c9eac;
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+.title button:hover{
+    background: #eaebf3;
+    color: #fff !important;
+    cursor: pointer;
+}
+button span:first-child{
+    display: inline-flex;
+    padding: 10px;
+    border-right:2px solid #9c9eac;
+    margin-right: 10px;
+}
+
+.title .delete{
+    color: red; 
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right:15px !important;
+    border-color: red !important;
+}
+.title .delete *{
+    color: red !important;
+    border-color: red !important;
+}
+.update,.update span {
+    border-color: #3190e9 !important;
+    color: #3190e9 !important;
+}
+.update:hover{
+    background: #d3eaff !important;
+}
+.title .smaller{
+    width:65px !important;
+    height:65px !important;
+}

@@ -1,0 +1,42 @@
+#page{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:calc(100% - 64px);   
+    overflow: auto;
+}
+.validate{
+    position: fixed; 
+    width: 100%;
+    top:0;
+    left: 0; 
+    height: 100%;
+    overflow: auto;
+}
+.validate section{
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.validate nav{
+    display: flex;
+    border-bottom: 1px solid #cdcedb;
+    padding-bottom:15px; 
+}
+.validate a{
+    background: #E5E6F1;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    color: #000;
+}
+.validate .on{
+    background: #546aad;
+    color: #fff;
+}
+.validate a:first-child{
+    margin-right: 15px;
+}

@@ -1,0 +1,70 @@
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box textarea,
+.lightbox input[type="text"],
+.lightbox input[type="password"],
+.lightbox textarea,
+.lightbox input[type="number"],
+.lightbox input[type="date"],
+.lightbox select
+{
+    width: 100%;
+    background: #f2f2f8;
+    border: 1px solid #e1e2ee;
+    font-size: 100%;
+    padding: 12px;
+    border-radius: 5px;
+}
+.lightbox textarea, .form-box textarea{
+    height: 200px;
+    resize: none;
+}
+.lightbox div, .form-box div{
+    display: flex;
+}
+.form-box span{
+    display: block;
+    flex-grow: 1;
+}
+.form-box span:first-child{
+    margin-right: 15px;
+    
+}
+.form-box h4, .lightbox h4{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.form-box label{
+    background: #e1e2ee;
+    padding: 15px;
+    border-radius:5px;
+    margin-right: 10px;
+    min-width: 20%;
+}
+.form-box label input{
+    margin-right: 10px;
+}
+.form-box input[type="submit"]{
+    position: fixed;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    background: #546aad;
+    border-radius: 5px;
+    bottom:30px;
+    right: 30px;
+    font-size: 100%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+h6{
+    font-size: 0.9em;
+    color: red;
+    margin-top:10px;
+}
+.has-error{
+    border-color: #ff8181 !important;
+    background: #fff1f1 !important;
+}

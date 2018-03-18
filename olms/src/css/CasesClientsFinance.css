@@ -1,0 +1,100 @@
+.cases{
+    display: flex;
+    width:100%;
+    height:100%;
+}
+.casesBody{
+    display: flex;
+    width: 100%;
+    height:100%;
+}
+.left,.right{
+    width:18%;
+    min-width:200px;
+    background: #eeeef7;
+    overflow: auto;
+    flex-shrink: 0;
+}
+.left{
+    background: #4B4B4B;
+}
+.right{
+    width:19%;
+    display: flex;
+    flex-direction: column;
+}
+.clients .right{
+    width:22%;
+}
+.content{
+    flex-grow: 1;
+    border:1px solid #cdcedb;
+    display: flex;
+    border-top: 0;
+    flex-shrink: 0;
+}
+.section-head, .side-label{
+    color: #fff;
+    margin:12px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 0.95em;
+    text-align: center;
+    background: #546AAD;
+}
+.finance .content{
+    max-width: 950px;
+    flex-grow: 2;
+}
+.finance .right{
+    max-width: 365px;
+    flex-grow: 1;
+    font-size: 98%;
+}
+.finance .right div{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    padding: 15px;
+    margin: 12px;
+}
+.finance .right h3{
+    color: #5572C0;
+    text-align: center;
+    border-bottom: 1px solid #cdcedb;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+.client-info li{
+    color: #9495a1;
+    display: flex;
+    align-items: center;
+    margin-bottom:17px;
+}
+.client-info li svg{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.finance .right .caseControls div{
+    background: #5572C0 !important;
+}
+.client-status{
+    height: 300px;
+}
+.client-status textarea{
+    width:100%;
+    height: 200px;
+    resize: none;
+    border: none;
+}
+.grow{
+    flex-grow: 1;
+}
+@media screen and (max-width: 800px){
+     .casesBody,.cases{
+         flex-direction: column;
+     }
+     .left,.right, .clients .right{
+         width: 100%;
+     }
+}

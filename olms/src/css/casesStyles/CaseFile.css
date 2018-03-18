@@ -1,0 +1,32 @@
+.caseFile{
+    display: inline-flex;
+    flex-direction: column;
+    width:135px;
+    height:135px;
+    background: #e5e6f1;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 15px;
+}
+.caseFile div:first-child{
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.caseFile div:last-child{
+    font-size: 0.9em;
+    color: #9c9eac;
+}
+.caseFile svg{
+    font-size: 2.5em;
+    color: #5572C0;
+    vertical-align: middle;
+}
+@media screen and (max-width: 800px){
+     .caseFile{
+        width:100px;
+        height:100px;
+    }
+}

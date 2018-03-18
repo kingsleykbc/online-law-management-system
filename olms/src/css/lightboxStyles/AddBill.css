@@ -1,0 +1,4 @@
+#add-bill form div span:first-child{
+    width:70%;
+    flex-grow:0;
+}

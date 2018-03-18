@@ -1,0 +1,47 @@
+.all-clients{
+    flex-grow: 1;
+    border-radius: 5px;
+    margin:17px 0;
+    overflow: auto;
+    display: block !important;
+}
+#add-clients section{
+    border-radius: 5px;
+    background: #E5E6F1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#add-clients .button{
+    margin: 0;
+    padding: 10px;
+    flex-grow: 0;
+    color: #546AAD;
+    background: none;
+    border-color: #546AAD;
+}
+#add-clients .button:hover{
+    cursor: pointer;
+    background: #546AAD;
+    color: #fff;
+}
+#add-clients .added{
+    color: #fff;
+    border-color: #46be96;
+    background: #46be96;
+}
+#add-clients .added:hover{
+    background: #46be96;
+}
+#add-clients section span:first-child{
+    flex-grow: 1;
+    margin: 0;
+}
+#add-clients section img{
+    width:45px;
+    height:45px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
